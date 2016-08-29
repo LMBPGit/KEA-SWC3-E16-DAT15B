@@ -1,3 +1,5 @@
+package dk.kea.swc3.week34.oop;
+
 /**
  * Created by coag on 25-08-2016.
  */
@@ -16,7 +18,7 @@ public class Car {
 
     public static void main(String[] args) {
         //System.out.println("in main");
-        //Car car = new Car();
+        //dk.kea.swc3.week34.oop.Car car = new dk.kea.swc3.week34.oop.Car();
 
     }
 
