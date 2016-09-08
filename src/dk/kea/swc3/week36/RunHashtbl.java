@@ -43,15 +43,28 @@ public class RunHashtbl {
         }
 
         //TODO - 05/09-2016
-        String result = "";
+        /*
+        String[] result = {""};
         grades.forEach((key, val) ->{
-            result.concat(key + ": ");
+            result[0] += key + ": ";
             val.forEach(name -> {
-                result.concat(name +" ");
+                result[0] += name +" ";
             });
+            result[0] +="\n";
             //System.out.println(val);
         });
-        System.out.println("Rs> " + result);
+        System.out.println(result[0]);
+*/
+        final StringBuilder result = new StringBuilder();
+        grades.forEach((key, val) ->{
+            result.append(key + ": ");
+            val.forEach(name -> {
+                result.append(name +" ");
+            });
+            result.append("\n");
+            //System.out.println(val);
+        });
+        System.out.println(result);
 
 
     }

@@ -1,5 +1,7 @@
 package dk.kea.swc3;
 
+import java.util.Arrays;
+
 /**
  * Created by coag on 01-09-2016.
  */
@@ -11,7 +13,7 @@ public class TrickyJava {
         System.out.println(Math.min(Integer.MIN_VALUE, 0));
         //Q.2
         System.out.println(1.0/.0);
-        */
+
         //Q.3
 
         try{
@@ -24,6 +26,14 @@ public class TrickyJava {
         } finally {
             System.out.println("in finally");
         }
+        */
+
+        //Q.4
+        // FIXME: 08-09-2016 
+        char[] chars = new char[] {'\u0097'};
+        String str = new String(chars);
+        byte[] bytes = str.getBytes();
+        System.out.println(Arrays.toString(bytes));
 
     }
 }
