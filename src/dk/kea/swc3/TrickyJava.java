@@ -7,7 +7,7 @@ import java.util.Arrays;
  */
 public class TrickyJava {
     public static void main(String[] args) {
-        /*
+/*
         //Q.1
         System.out.println(Math.min(Double.MIN_VALUE, 0.0d));
         System.out.println(Math.min(Integer.MIN_VALUE, 0));
@@ -26,7 +26,7 @@ public class TrickyJava {
         } finally {
             System.out.println("in finally");
         }
-        */
+
 
         //Q.4
         // FIXME: 08-09-2016 
@@ -34,6 +34,9 @@ public class TrickyJava {
         String str = new String(chars);
         byte[] bytes = str.getBytes();
         System.out.println(Arrays.toString(bytes));
+
+*/
+
 
     }
 }
