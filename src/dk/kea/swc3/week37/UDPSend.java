@@ -14,7 +14,7 @@ public class UDPSend {
     public static void main(String[] args) {
 
         try {
-            int sendPort = 7777;
+            int sendPort = 80;
             InetAddress ip = InetAddress.getByName("localhost");
 
             DatagramSocket socket = new DatagramSocket();

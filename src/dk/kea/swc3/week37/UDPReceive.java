@@ -12,7 +12,7 @@ public class UDPReceive {
 
     public static void main(String[] args) {
         try {
-            int receivePort = 7777;
+            int receivePort = 80;
             InetAddress ip = InetAddress.getByName("localhost");
             DatagramSocket socket = new DatagramSocket(receivePort, ip);
 
@@ -21,8 +21,11 @@ public class UDPReceive {
 
                 DatagramPacket packet = new DatagramPacket(receiveData, receiveData.length);
                 socket.receive(packet);
+
                 String msg = new String(receiveData);
+                msg = msg.substring(0, msg.indexOf(0));
                 System.out.println(msg);
+                System.out.println(msg.length());
             }
         } catch (Exception e) {
             e.printStackTrace();

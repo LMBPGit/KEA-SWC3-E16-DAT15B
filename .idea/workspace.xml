@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d51530a5-0a2e-4cda-939c-b14e8cc73320" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/kea/swc3/week37/UDPReceive.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/kea/swc3/week37/UDPSend.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KEA-SWC3-E16/dk/kea/swc3/TrickyJava.class" afterPath="$PROJECT_DIR$/out/production/KEA-SWC3-E16/dk/kea/swc3/TrickyJava.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/kea/swc3/week38/TCPClient.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dk/kea/swc3/week38/TCPServer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KEA-SWC3-E16/dk/kea/swc3/week37/UDPReceive.class" afterPath="$PROJECT_DIR$/out/production/KEA-SWC3-E16/dk/kea/swc3/week37/UDPReceive.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/KEA-SWC3-E16/dk/kea/swc3/week37/UDPSend.class" afterPath="$PROJECT_DIR$/out/production/KEA-SWC3-E16/dk/kea/swc3/week37/UDPSend.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/kea/swc3/TrickyJava.java" afterPath="$PROJECT_DIR$/src/dk/kea/swc3/TrickyJava.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/kea/swc3/week37/UDPReceive.java" afterPath="$PROJECT_DIR$/src/dk/kea/swc3/week37/UDPReceive.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dk/kea/swc3/week37/UDPSend.java" afterPath="$PROJECT_DIR$/src/dk/kea/swc3/week37/UDPSend.java" />
     </list>
     <ignored path="KEA-SWC3-E16.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="UDPSend.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/dk/kea/swc3/week37/UDPSend.java">
+      <file leaf-file-name="TCPServer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/dk/kea/swc3/week38/TCPServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
+            <state relative-caret-position="495">
+              <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -80,6 +83,9 @@
         <option value="$PROJECT_DIR$/src/dk/kea/swc3/TrickyJava.java" />
         <option value="$PROJECT_DIR$/src/dk/kea/swc3/week37/UDPReceive.java" />
         <option value="$PROJECT_DIR$/src/dk/kea/swc3/week37/UDPSend.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/dk/kea/swc3/week38/TCPClient.java" />
+        <option value="$PROJECT_DIR$/src/dk/kea/swc3/week38/TCPServer.java" />
       </list>
     </option>
   </component>
@@ -120,7 +126,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -177,12 +182,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="week37" />
+              <option name="myItemId" value="week38" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -190,7 +196,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
-  <component name="RunManager" selected="Application.UDPSend">
+  <component name="RunManager" selected="Application.TCPServer">
     <configuration default="false" name="TrickyJava" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -202,46 +208,6 @@
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="KEA-SWC3-E16" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="RunHashtbl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dk.kea.swc3.week36.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="dk.kea.swc3.week36.RunHashtbl" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="KEA-SWC3-E16" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Run" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dk.kea.swc3.week36.concurent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="dk.kea.swc3.week36.concurent.Run" />
-      <option name="VM_PARAMETERS" value="-Xms2048m" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -279,6 +245,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="dk.kea.swc3.week37.UDPReceive" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="KEA-SWC3-E16" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TCPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dk.kea.swc3.week38.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="dk.kea.swc3.week38.TCPServer" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="KEA-SWC3-E16" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TCPClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dk.kea.swc3.week38.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="dk.kea.swc3.week38.TCPClient" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -720,18 +726,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.TrickyJava" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RunHashtbl" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Run" />
-      <item index="3" class="java.lang.String" itemvalue="Application.UDPSend" />
-      <item index="4" class="java.lang.String" itemvalue="Application.UDPReceive" />
+      <item index="1" class="java.lang.String" itemvalue="Application.UDPSend" />
+      <item index="2" class="java.lang.String" itemvalue="Application.UDPReceive" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TCPServer" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TCPClient" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.UDPSend" />
-        <item index="1" class="java.lang.String" itemvalue="Application.UDPReceive" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TrickyJava" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Run" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RunHashtbl" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TCPServer" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TCPClient" />
+        <item index="2" class="java.lang.String" itemvalue="Application.UDPSend" />
+        <item index="3" class="java.lang.String" itemvalue="Application.UDPReceive" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TrickyJava" />
       </list>
     </recent_temporary>
   </component>
@@ -760,27 +766,28 @@
       <workItem from="1473057564580" duration="9942000" />
       <workItem from="1473316300421" duration="9097000" />
       <workItem from="1473402291867" duration="172000" />
-      <workItem from="1473661787478" duration="7293000" />
+      <workItem from="1473661787478" duration="10061000" />
+      <workItem from="1474266548799" duration="4399000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56257000" />
+    <option name="totallyTimeSpent" value="63424000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1050" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19157895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34421054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3736842" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.52526313" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32947367" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -817,7 +824,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4094737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37349397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17916666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -847,11 +854,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/dk/kea/swc3/week36/concurent/Run.java">
+    <entry file="file://$PROJECT_DIR$/src/dk/kea/swc3/week37/UDPSend.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1473673237091" expanded="true" signature="36:185" ph="..." />
+            <marker date="1473673237091" expanded="true" signature="187:228" ph="/**...*/" />
+            <marker date="1473673237091" expanded="true" signature="296:1196" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -859,7 +870,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -867,7 +877,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/kea/swc3/week36/concurent/Run.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1106,10 +1122,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
-          <folding>
-            <marker date="1473320016045" expanded="true" signature="50:91" ph="/**...*/" />
-            <marker date="1473320016045" expanded="true" signature="162:1746" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1117,7 +1129,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1125,12 +1136,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding>
-            <marker date="1473072696408" expanded="true" signature="39:80" ph="/**...*/" />
-            <marker date="1473072696408" expanded="true" signature="173:249" ph="{...}" />
-            <marker date="1473072696408" expanded="true" signature="272:282" ph=" { " />
-            <marker date="1473072696408" expanded="true" signature="295:301" ph=" }" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1147,20 +1152,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dk/kea/swc3/week37/UDPReceive.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
           <folding>
-            <marker date="1473670527851" expanded="true" signature="36:159" ph="..." />
-            <marker date="1473670527851" expanded="true" signature="161:202" ph="/**...*/" />
-            <marker date="1473670527851" expanded="true" signature="273:869" ph="{...}" />
+            <marker date="1473673187386" expanded="true" signature="36:159" ph="..." />
+            <marker date="1473673187386" expanded="true" signature="161:202" ph="/**...*/" />
+            <marker date="1473673187386" expanded="true" signature="273:974" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dk/kea/swc3/week37/UDPSend.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="25" column="75" selection-start-line="25" selection-start-column="75" selection-end-line="25" selection-end-column="75" />
+        <state relative-caret-position="478">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <marker date="1473673237091" expanded="true" signature="36:185" ph="..." />
+            <marker date="1473673237091" expanded="true" signature="187:228" ph="/**...*/" />
+            <marker date="1473673237091" expanded="true" signature="296:1196" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="132">
+            <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownFxPreviewEditor">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/kea/swc3/week38/TCPClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+          <folding>
+            <marker date="1474269541845" expanded="true" signature="36:351" ph="..." />
+            <marker date="1474269541845" expanded="true" signature="353:394" ph="/**...*/" />
+            <marker date="1474269541845" expanded="true" signature="463:1553" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dk/kea/swc3/week38/TCPServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
