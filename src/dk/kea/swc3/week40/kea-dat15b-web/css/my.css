@@ -1,0 +1,31 @@
+body{
+    background-color: purple; /*this is a comment*/
+}
+
+#home_plan{
+    background-image: url("../img/plan.png");
+    background-repeat: no-repeat;
+    height: 900px;
+    padding-top: 93px;
+}
+
+#room1{
+    background-color: rgba(255, 0, 0, .75);
+    height: 213px;
+    width: 185px;
+    margin-left: 188px;
+    float: left;
+}
+#room2{
+    background-color: rgba(0, 255, 0, .75);
+    height: 380px;
+    width: 246px;
+    /* margin-left: 372px; */
+    float: left;
+}
+#room3{
+    background-color: rgba(0, 0, 255, .75);
+    height: 203px;
+    width: 187px;
+    margin-left: 620px;
+}
